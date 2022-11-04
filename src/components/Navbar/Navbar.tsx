@@ -1,5 +1,6 @@
-import * as React from "react";
 import { Flex, Image } from "@chakra-ui/react";
+import * as React from "react";
+import SearchInput from "./SearchInput";
 
 interface IAppProps {}
 
@@ -19,6 +20,7 @@ const Navbar: React.FunctionComponent = (props) => {
           display={{ base: "none", md: "unset" }}
         />
       </Flex>
+      <SearchInput />
     </Flex>
   );
 };
