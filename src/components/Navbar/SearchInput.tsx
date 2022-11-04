@@ -10,7 +10,7 @@ const SearchInput: React.FunctionComponent<SearchInputProps> = (props) => {
       <InputGroup>
         <InputLeftElement
           pointerEvents="none"
-          children={<SearchIcon color="gray.500" />}
+          children={<SearchIcon color="gray.500" mb={2} />}
         />
         <Input
           placeholder="Search Reddit"
