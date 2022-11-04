@@ -1,11 +1,21 @@
 import * as React from "react";
+import Navbar from "../Navbar/Navbar";
 
-type IAppProps = {};
+// Object type literal
+type IAppProps = {
+  a: boolean;
+  b: number;
+  c: string;
+};
 
-const Layout: React.FunctionComponent<IAppProps> = () => {
-  return;
+// tsrsfc
+const Layout: React.FunctionComponent = ({ children }) => {
+  return (
+    <>
+      <Navbar />
+      <main>{children}</main>
+    </>
+  );
 };
 
 export default Layout;
-
-// tsrsfc
