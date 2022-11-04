@@ -6,7 +6,7 @@ type AuthButtonsProps = {};
 const AuthButtons: React.FunctionComponent<AuthButtonsProps> = (props) => {
   return (
     <>
-      <Button>Log in</Button>
+      <Button variant="outline">Log in</Button>
       <Button>Sign up</Button>
     </>
   );

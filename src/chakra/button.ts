@@ -8,13 +8,13 @@ const Button: ComponentStyleConfig = {
     color: "brand.100",
   },
   variants: {
-    solid: () => ({
+    solid: {
       color: "white",
       bg: "blue.500",
       _hover: {
         bg: "blue.400",
       },
-    }),
+    },
     outline: {
       color: "blue.500",
       border: "1px solid",
