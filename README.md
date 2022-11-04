@@ -11,3 +11,7 @@ yarn dev
 ```
 
 # 1104
+
+# 備忘
+
+tsrsfc = stateless functional component
