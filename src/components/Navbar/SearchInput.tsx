@@ -6,7 +6,7 @@ type SearchInputProps = {};
 
 const SearchInput: React.FunctionComponent<SearchInputProps> = (props) => {
   return (
-    <Flex>
+    <Flex flexGrow={1}>
       <InputGroup>
         <InputLeftElement
           pointerEvents="none"
