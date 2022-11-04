@@ -3,6 +3,7 @@ import { extendTheme } from "@chakra-ui/react";
 import "@fontsource/open-sans/300.css";
 import "@fontsource/open-sans/400.css";
 import "@fontsource/open-sans/700.css";
+// TODO: 預先定義好的元件 都能作為之後全局的調用
 import Button from "./button";
 
 // Extend the theme to include custom colors, fonts, etc
